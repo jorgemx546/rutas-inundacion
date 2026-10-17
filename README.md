@@ -36,7 +36,6 @@ jupyter nbconvert --to notebook --execute rutas_inundacion.ipynb --output rutas_
 ```
 
 ## Historial de cambios
-
 Cada celda se guardó en GitHub con un commit descriptivo (`feat:`, `test:`, `docs:`, `chore:`), de modo que el historial muestra el desarrollo paso a paso y la parte de cada integrante.
 
 ## Declaración de uso de IA
