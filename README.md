@@ -11,7 +11,7 @@ Prototipo que simula una zona inundada como una cuadrícula y busca una ruta des
 |---|---|---|
 | Jorge | 1, 2 y 3 | Terreno, funciones base y los algoritmos BFS, Dijkstra y A* |
 | Jarett | 4, 5 y 6 | Validador, comparación y visualización, además de las pruebas 1, 2 y 3 |
-| Danie | 7 y 8 | Pruebas 4 y 5, y la prueba adicional con error inyectado |
+| Daniel | 7 y 8 | Pruebas 4 y 5, y la prueba adicional con error inyectado |
 | Erick | 9 y 10 | Prueba del validador, decisiones de diseño y declaración de IA |
 
 ## Contenido del repositorio
@@ -35,10 +35,10 @@ pip install -r requirements.txt
 jupyter nbconvert --to notebook --execute rutas_inundacion.ipynb --output rutas_inundacion.ipynb
 ```
 
-## Decisiones de diseño
+## Historial de cambios
 
-_Pendiente._
+Cada celda se guardó en GitHub con un commit descriptivo (`feat:`, `test:`, `docs:`, `chore:`), de modo que el historial muestra el desarrollo paso a paso y la parte de cada integrante.
 
 ## Declaración de uso de IA
 
-_Pendiente._
+Se usó una herramienta de IA como apoyo para escribir el código y los textos. El código se verificó así: se ejecutó el cuaderno completo, cada prueba comprueba su resultado con `assert`, se inyectó un error a propósito para confirmar que las pruebas lo detectan y se revisaron a mano las rutas de los escenarios. Todos los resultados del cuaderno salen de ejecuciones reales.
