@@ -3,3 +3,4 @@ matplotlib>=3.8
 notebook>=7.0
 nbconvert>=7.0
 ipykernel>=6.0
+pandas>=2.0
